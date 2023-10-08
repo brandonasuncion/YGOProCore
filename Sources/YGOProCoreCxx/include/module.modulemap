@@ -1,0 +1,16 @@
+module YGOProCoreCxx {
+    header "card.h"
+    header "common.h"
+    header "duel.h"
+    header "effect.h"
+    header "effectset.h"
+    header "field.h"
+    header "group.h"
+    header "interpreter.h"
+    header "mtrandom.h"
+    header "ocgapi.h"
+    header "scriptlib.h"
+    
+    // link "YGOProCoreCxx"
+    export *
+}
